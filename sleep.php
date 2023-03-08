@@ -218,7 +218,7 @@ color: #000000;
                 <div class="tab">
                     <button class="tablinks graph_button_left " onclick="openCity(event, 'London')">Custom Dates</button>
                     <button class="tablinks" onclick="openCity(event, 'Year')">Year</button>
-                    <button class="tablinks" onclick="openCity(event, 'Month')">Month</button>
+                    <button class="tablinks" onclick="openCity(event, 'Month')">Month </button>
                     <button id="temp" class="tablinks graph_button_side" class="tab_button_side" onclick="openCity(event, 'Week')">Week</button>
                 </div>
             </div>
