@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #f3f5f9;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar {
+    width: 200px;
+    height: 100%;
+    background: #f3f5f9;
+    padding: 30px 0px;
+    position: fixed;
+    border: 1px solid #bdb8d7;
+}
+
+.header {
+    padding: 20px;
+    margin-left: 200px;
+    background: #f3f5f9;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+    width: 100%;
+}
+
+.wrapper .sidebar h2 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper .sidebar.a {
+    position: absolute;
+    width: 114px;
+    height: 16px;
+    left: 82.03px;
+    top: 107px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 88%;
+
+}
+
+.wrapper .sidebar ul li {
+    padding: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.wrapper .sidebar ul li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.wrapper .sidebar ul li a .fas {
+    width: 25px;
+}
+
+.wrapper .sidebar ul li:hover {
+
+    background: #7282FB1A;
+    border-radius: 6px;
+}
+
+/* .wrapper .sidebar ul li:hover a {
+
+    background: #7282FB;
+} */
+
+.wrapper .sidebar .social_media {
+    bottom: 0;
+    position: fixed;
+}
+
+.client {
+    margin-left: 215px;
+    position: relative;
+    width: 1121px;
+    padding-top: 30px;
+    /*height: 995px; */
+}
+
+.active {
+    /* background: #ECECEC; */
+    margin-right: 46px;
+    margin-left: 96px;
+    margin-top: 39px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 57px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.pending {
+    /* background: #ECECEC; */
+    margin-left: 46px;
+    margin-top: 39px;
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 57px;
+    /* identical to box height */
+    color: #000000;
+
+}
+
+.active:hover {
+    border-bottom: 5px solid #4B9AFB;
+    border-width: fit-content;
+}
+
+.pending:hover {
+    border-bottom: 5px solid #4B9AFB;
+    border-width: fit-content;
+}
+
+.client-list-top {
+    position: absolute;
+    width: 460.46px;
+    height: 330px;
+    left: 753px;
+    top: 80px;
+    bottom: 447.49px;
+    right: 151.97px;
+    background: url("lilac user icon.png");
+    transform: rotate(-16.44deg);
+}
+
+.client-list-bottom {
+    position: absolute;
+    width: 355.09px;
+    height: 200px;
+    left: 80px;
+    top: 700px;
+    right: 800px;
+    bottom:0px;
+    background: url("lilac user icon.png");
+    transform: rotate(-58.35deg);
+}
+
+.client-content {
+    margin-top: 300px;
+    align-items: center;
+    margin-left: 550px;
+    margin-right: 449px;
+    margin-bottom: 515px;
+    width: 320px;
+    height: 33px;
+}
+
+.client-button {
+    margin-top: 25px;
+    position: absolute;
+    border: 1px solid #7282FB;
+    box-sizing: border-box;
+    background: #7282FB;
+    border-radius: 10px;
+    height: 60px;
+    width: fit-content;
+    align-items: center;
+}
+
+.client-button h3 {
+
+    font-family: 'popins';
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.billing{
+    position: absolute;
+    left: 800px;
+    top: 300px;
+}
+
+.bill-content{
+    position: absolute;
+    left: 800px;
+    top: 700px;
+    bottom : 200px;
+}
