@@ -43,13 +43,13 @@
   background-color: #f1f1f1; */
   border: 1px solid #F8F5F5;
   width: 365px;
-height: 27px;
-margin-left: 3%;
-border-top-left-radius: 1em!important;
-border-bottom-left-radius: 1em!important;
-border-top-right-radius: 1em!important;
-  border-bottom-right-radius: 1em!important;
-}
+    height: 27px;
+    margin-left: 3%;
+    border-top-left-radius: 1em!important;
+    border-bottom-left-radius: 1em!important;
+    border-top-right-radius: 1em!important;
+      border-bottom-right-radius: 1em!important;
+    }
 .tab button {
     background: #FFFFFF;
     border: 1px solid #FCFBFB;
@@ -197,7 +197,7 @@ font-size: 17px;
 /* identical to box height */
 
 
-color: #000000;
+color: #000;
 
 }
 .right p{
