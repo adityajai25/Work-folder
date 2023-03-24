@@ -198,13 +198,11 @@ body {
 }
 
 .billing{
-    position: absolute;
     left: 800px;
     top: 300px;
 }
 
 .bill-content{
-    position: absolute;
     left: 800px;
     top: 700px;
     bottom : 200px;
